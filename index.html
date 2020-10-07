@@ -96,24 +96,25 @@
               </thead>
               <tbody>
 			  
-                <tr role="row">
-				<td><a href="inbound_final.html">8500000181</a></td>
-				<td><a href="inbound_final.html">21/10/2020</a></td>
-				<td><a href="inbound_final.html">300380</a></td>
-				<td><a href="inbound_final.html">New</a></td>
-				</tr>
-				<tr role="row">
-				<td><a href="inbound_final.html">8500000181</a></td>
-				<td><a href="inbound_final.html">21/10/2020</a></td>
-				<td><a href="inbound_final.html">300380</a></td>
-				<td><a href="inbound_final.html">Updated</a></td>
+			   <tr onclick="document.location = 'inbound_final.html';">
+                <td>8500000181</td>
+				<td>21/10/2020</td>
+				<td>300380</td>
+				<td>New</td>
 				</tr>
 				
-				<tr role="row">
-				<td><a href="inbound_final.html">8500000181</a></td>
-				<td><a href="inbound_final.html">21/10/2020</a></td>
-				<td><a href="inbound_final.html">300380</a></td>
-				<td><a href="inbound_final.html">Updated</a></td>
+				<tr onclick="document.location = 'inbound_final.html';">
+				<td>8500000181</td>
+				<td>21/10/2020</td>
+				<td>300380</td>
+				<td>Updated</td>
+				</tr>
+				
+				<tr onclick="document.location = 'inbound_final.html';">
+				<td>8500000181</td>
+				<td>21/10/2020</td>
+				<td>300380</td>
+				<td>Updated</td>
 				</tr>
 				
 				
@@ -122,27 +123,11 @@
               </tbody>
             </table>
           </div>
-          <!--<center class="my-3">
-            <a class="btn btn-primary" href="po_list.html" type="submit" value="submit">
-              Create New ASN
-            </a>
-          </center>-->
+         
         </div>
       </main>
       
-	  <!--<footer>
-        <nav
-          class="navbar fixed-bottom br_title p-0 bg_darkblue"
-          style="border: none;"
-        >
-          <h6
-            class="mb-0"
-            style="font-size: 12px; color: #17a2b8; font-weight: bold;"
-          >
-            Nupco
-          </h6>
-        </nav>
-      </footer>-->
+	
     </div>
 
     <!-- script files -->
@@ -178,7 +163,7 @@
       // } );
       $('.example').dataTable({
         "order": [[ 0, "desc" ]],
-        "lengthMenu": [ [15, 30, 50, 100, 250, 500, 1000, 1500], [15, 20, 50, 100, 250, 500, 1000, 1500] ],
+       "lengthMenu": [ [15, 30, 50, 100, 250, 500, 1000, 1500], [15, 20, 50, 100, 250, 500, 1000, 1500] ],
         "iDisplayLength": 1000,
         drawCallback: function(settings) {
           var pagination = $(this).closest('.dataTables_wrapper').find('.dataTables_paginate');

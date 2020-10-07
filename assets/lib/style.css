@@ -57,12 +57,30 @@ border: 1px solid #1c2346 !important;
   overflow-y: auto;
 }*/
 .table_fixed_height thead tr th{
-    background-color: #17a2b8;
+    background-color: #007bff;
     color: #fff;
     position: sticky;
     top: 44px;
     z-index: 10;
-    padding: 5px 5px!important;
+    padding: 5px 25px!important;
+}
+.tab-res thead tr th{
+ background-color: #007bff;
+    color: #fff;
+  
+} 
+.table th{
+  position: sticky;
+}
+.ht{
+  margin-top: 25px
+}
+.up_btn{
+  font-size: 13px;
+    color: #fff !important;
+    background-color: #1c2346 !important;
+    border: 1px solid #1c2346 !important;
+    height: 35px;
 }
 .table_fixed_height thead{
     background-color: #17A2B8;
@@ -70,7 +88,9 @@ border: 1px solid #1c2346 !important;
     position: sticky;
     top: 0px;
     z-index: 10;
+
 }
+
 .table_fixed_height tbody td{
   padding: 5px 5px!important;
 }
@@ -132,7 +152,7 @@ border: 1px solid #1c2346 !important;
     padding: 0.2em 0.8em;
   }
   table.dataTable thead th, table.dataTable thead td{
-    padding: 5px 5px;
+    padding: 5px 25px;
   }
   table.dataTable tbody th, table.dataTable tbody td{
     padding: 3px 5px;
@@ -244,7 +264,7 @@ border: 1px solid #1c2346 !important;
     float: left!important;
 }
 .dataTables_wrapper .dataTables_filter{
-    background-color: #ffffff;
+    /*background-color: #ffffff;
     /* color: #fff; */
     position: sticky;
     top: 0px;

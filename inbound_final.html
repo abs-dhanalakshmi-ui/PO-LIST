@@ -202,23 +202,19 @@
               <table class="table table-bordered mx-auto po_table table_padding mb-0 example" id="add_newrow">
                 <thead class="bg-info text-white">
                   <tr>
+
                     <th class="px-1">ALL <input type="checkbox" name=""></th>
                     <th class="px-1">MOH PO #</th>
                     <th class="px-1">ITEM DESCRIPTION</th>
                     <th class="px-1">MOH GEN CODE</th>
-					
-                   
-					
-                    <th class="px-1">NUPCO PO #</th>       
+					<th class="px-1">NUPCO PO #</th>       
                     <th class="px-1">NUPCO PO ITEM</th>       
                     <th class="px-1">ITEM DESCRIPTION</th>        
                     <th class="px-1">NUPCO GEN CODE</th>
 					<th class="px-1">PO DELIVERY DATE</th>
-					
-					 <th class="px-1">PO QTY</th>
+					<th class="px-1">PO QTY</th>
                     <th class="px-1">UOM</th> 
                     <th class="px-1">UNIT PRICE</th>
-					
 					<th class="px-1">CURRENCY</th>
 					<th class="px-1">SELECT STATUS</th>
 					<th class="px-1">DATE</th>
@@ -271,7 +267,7 @@
 					
 					<td>SAR</td>
 					<td class = "px-1 select"> 
-				<select>     
+				<select style="height:35px;">     
                 <option>Status </option>				
                 <option><a href="#">Delivered Fully</a></option>
                 <option><a href="#">Delivered Partially</a></option>
@@ -282,7 +278,7 @@
         </select>
 				</td>
 					<td class="px-1">
-				 <input class="datepicker" width="276" />
+				 <input class="datepicker" width="140" />
      <script>
         $('.datepicker').datepicker({
             uiLibrary: 'bootstrap4'
@@ -292,7 +288,79 @@
                     </td>
 					
 					<td class="px-1">
-					<input type="text">
+					<input type="text" name="remarks" value="" style="height:35px;">
+					</td>
+					<td class="px-1">
+                     <button type="button" class="btn btn-warning btn_color">UPDATE</button>
+                    </td>
+					
+
+                  </tr>
+				  
+				  <tr>
+                    <td class="px-1">
+                     <input type="checkbox" name=""> 
+                    </td>
+                    <td class="px-1">
+                      90014020017
+                    </td>
+                    <td class="px-1">
+                     Others
+                    </td>
+                    <td class="px-1">
+                     137200370
+                    </td>
+                    
+                   
+                    <td class="px-1">
+                      4500014152
+                    </td>
+                    <td class="px-1">
+                      5270
+                    </td>
+                    <td class="px-1">
+                     TUBE RYLES P.V.C.
+                     120-140CM FG20
+                    </td>
+                    <td class="px-1">
+                     4223170100400
+                    </td>
+					<td class="px-1">
+                     2020-10-01
+                    </td>
+					 <td class="px-1">
+                    500
+                    </td>
+                    <td class="px-1">
+                    TUB
+                    </td>
+                    <td class="px-1">
+                     1035.00
+                    </td>
+					
+					<td>SAR</td>
+					<td class = "px-1 select"> 
+				<select style="height:35px;">     
+                <option>Status </option>				
+                <option><a href="#">Delivered Fully</a></option>
+                <option><a href="#">Delivered Partially</a></option>
+                <option><a href="#">Delivery Scheduled</a></option>
+                <option><a href="#">Rejected by Customer</a></option>
+				<option><a href="#">Out Of Stock</a></option>
+				<option><a href="#">Failed To Deliver</a></option>
+        </select>
+				</td>
+					<td class="px-1">
+				  <input class="datepicker" width="140" />
+     <script>
+        $('.datepicker').datepicker({
+            uiLibrary: 'bootstrap4'
+        });
+    </script>
+                    </td>
+					
+					<td class="px-1">
+					<input type="text"  name="remarks" value="" style="height:35px;">
 					</td>
 					<td class="px-1">
                      <button type="button" class="btn btn-warning btn_color">UPDATE</button>
